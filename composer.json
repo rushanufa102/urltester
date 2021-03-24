@@ -1,0 +1,21 @@
+{
+  "name": "ozna/urltester",
+  "description": "Test cpmposer package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Rushan Zaripov",
+      "email": "zaripov.rm@ozna.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.9"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
