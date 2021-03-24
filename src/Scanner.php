@@ -64,7 +64,7 @@ class Scanner
 	 * @return mixed - Код состояния HTTP
 	 */
 	protected function getStatusCodeForUrl( $url ) {
-		$httpResponce = $this->httpClientOptions( $url );
+		$httpResponce = $this->httpClient->options( $url );
 
 		return $httpResponce->getStatusCode();
 	}
